@@ -1,7 +1,7 @@
 import robocode.*;
 import java.awt.geom.Point2D;
 
-public class FoxtrotBotBravo extends AlphaBot {
+public class FoxtrotBotBravo extends BravoBot {
 	private EnemyBot enemy = new EnemyBot();
 	private byte radarDirection = 1;
 	private byte moveDirection = 1;
